@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+    android:id="@+id/getdefaultImagebutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="GetDefultImages"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="search type here"
+    />
+<EditText
+    android:id="@+id/searchtext"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<Button
+    android:id="@+id/searchbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Search"
+    />
+<TextView  
+    android:id="@+id/queryresult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<TextView  
+    android:id="@+id/jsonresult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<ImageView  
+    android:id="@+id/flickrPhoto"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+
+<Gallery  
+	android:id="@+id/photobar"  
+	android:layout_width="fill_parent"  
+	android:layout_height="100dp"  
+	android:spacing="10dp"  
+	/>  
+
+</LinearLayout>
